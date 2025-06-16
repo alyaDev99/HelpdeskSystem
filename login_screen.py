@@ -25,7 +25,7 @@ def login():
     try:
         # Connect to MySQL database
         conn = mysql.connector.connect(
-            host="localhost",
+            host="172.16.30.95",
             user="root",
             password="",
             database="helpdesk_db"

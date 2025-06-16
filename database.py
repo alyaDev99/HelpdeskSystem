@@ -4,7 +4,7 @@ from hashlib import sha256
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 DB_CONFIG = {
-    'host': 'localhost',        # Replace with the IP address of the machine hosting the MySQL database
+    'host': '172.16.30.95',        # Replace with the IP address of the machine hosting the MySQL database
     'user': 'root',             # Your MySQL user
     'password': "" ,      # Your MySQL password
 }
